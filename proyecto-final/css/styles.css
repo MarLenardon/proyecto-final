@@ -1,0 +1,109 @@
+main {font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);}
+    
+.navbar-light {
+    background-color: #D9A9AD !important 
+    }
+
+.nav-items {color: #403333 !important;}
+
+.nav-link:hover {color: #F2E9E9 !important; 
+    background-color: #BF8E97;
+    text-decoration: none;
+    font-style: normal !important;}
+
+.active {font-style: italic !important;
+    color:#403333;}
+
+.btn-outline-success {
+    border: #BF8E97 solid 1px !important;
+    color: #403333 !important;}
+
+.btn-outline-success:hover {background-color: #BF8E97;}
+
+
+body {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F2E9E9; 
+    font-size: 14px;
+    margin: 0;
+}
+
+.banner {
+    width: 45%;
+    height: 150px;
+    padding: 0;
+    background-color: #DDB9AD;
+}
+
+.imagen-bienvenida {
+    /* padding-top: 15%; */
+    padding-left: 30%;
+    width: 80%;
+    height: auto;
+}
+
+.titulo-bienvenida {
+    color: #403333;
+    font-size: large;
+    margin-top: 12px;
+}
+
+.texto-bienvenida {
+    justify-content: center;
+    align-items: center;
+    color: #403333;}
+
+.col-md-4 {padding-left: 10px;}
+
+.border-top {
+    border-top: 1px solid #BF8E97!important;}
+
+.card-img-top {
+    padding: 20px;}
+
+.img-fluid {width: 100%;}
+
+.card-img-top {
+    /* width:fit-content; */
+    display: block;
+    align-self: center;}
+
+.segunda-fila {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.btn-primary {
+    background-color: #D9A9AD;
+    border-color: #D9A9AD;
+}
+
+.btn-primary:hover {
+    background-color: #BF8E97;
+    border-color: #BF8E97;
+}
+
+.btn:active {
+    border-color: #DDB9AD;
+    background-color: #BF8E97 ;
+}
+
+.formulario {height: 60px;}
+
+.margencol {
+    margin-top: 30px
+}
+
+.margencol2 {
+    margin-top: 70px;
+}
+
+/* .color1 {color: #D9A9AD; }
+.color2 {color: #F2D5D8; }
+.color3 {color: #BF8E97; }
+.color4 {color: #403333; }
+.color5 {color: #F2E9E9; }
+ */
+

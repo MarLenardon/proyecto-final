@@ -1,0 +1,15 @@
+h1{
+    color: violet; font-size: 36px; font-style: normal; font-weight: bold; text-transform: uppercase; text-align: left;
+}
+
+p{
+    color: grey; font-size: 16px; line-height: 22px; margin: 0; padding: 0;
+}
+
+
+
+#parrafo-importante { color: yellow;}
+
+.titulo {font-size: 60px; color: wheat}
+
+.rojo {color: tomato;}

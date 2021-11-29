@@ -1,0 +1,10 @@
+git clone REPO
+git status
+
+//Subir cambios 
+git add
+git commit -m "Destalle de lo que estoy haciendo"
+git push
+
+//Para bajar cambios 
+git pull

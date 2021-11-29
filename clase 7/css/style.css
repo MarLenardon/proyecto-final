@@ -1,0 +1,32 @@
+a {text-decoration: none;
+    color: red;
+    size: 10px;}
+
+a:hover {
+    color: green;
+    size: 14px;
+}
+
+.caja {
+    height: 30px;
+    width: 30px;
+    background-color: indigo;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-property: height;
+    transition-timing-function: ease-in-out;
+}
+
+.caja:hover {
+    height: 120px;
+    width: 120px;
+}
+
+.caja:active {
+    background-color: khaki;
+    height: 60px;
+    width: 60px;}
+
+ 
+/* orden: propiedades, duration, delay y fuction  */
+.prueba {transition:all 0.3s 0s ease-in}

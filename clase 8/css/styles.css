@@ -1,0 +1,6 @@
+/* Recursos: extras que se cargan como java scrip, elementos que no pertenezcan propiamente a la página como imágenes, css 
+Se carga como un arbol. Esto retrasa la carga completa del documento, hasta que no terminan dos request que se cargan en simultáneo, el resto no comienza a cargarse*/
+
+
+
+
