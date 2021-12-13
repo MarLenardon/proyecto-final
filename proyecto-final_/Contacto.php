@@ -24,16 +24,16 @@
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                           <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.php">Home</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="Portfolio.html">Portfolio</a>
+                            <a class="nav-link" href="Portfolio.php">Portfolio</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="Sobre-mi.html">Sobre mi</a>
+                            <a class="nav-link" href="Sobre-mi.php">Sobre mi</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link active" href="Contacto.html">Contacto</a>
+                            <a class="nav-link active" href="Contacto.php">Contacto</a>
                           </li>
                             </ul>
                          </ul>
@@ -81,18 +81,10 @@
                   </div>
                   <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>
-                <!-- <div>
-                    <ul>
-                    <li>Mail: marinalenardon@hotmail.com</li>
-                    <li>Tel.: +54 9 116540-1094</li>
-                    <li>Ig.: @marlenardon </li>
-                    </ul>
-                  </div> -->
             </section>
           </div>
         </main>
 
-        <footer>
           <div class="container">
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
               <div class="col-md-4 d-flex align-items-center">
@@ -110,7 +102,6 @@
               </ul>
             </footer>
           </div>
-          </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
