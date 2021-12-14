@@ -85,9 +85,9 @@ body {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-color: #BF8E97;
 }
 
-.btn:active {
-    border-color: #DDB9AD;
-    background-color: #BF8E97 ;
+.btn-primary:active {
+    border-color: #DDB9AD !important;
+    background-color: #BF8E97 !important ;
 }
 
 .formulario {height: 60px;}
@@ -100,10 +100,11 @@ body {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 70px;
 }
 
-/* .color1 {color: #D9A9AD; }
+/* 
+.color1 {color: #D9A9AD; }
 .color2 {color: #F2D5D8; }
 .color3 {color: #BF8E97; }
 .color4 {color: #403333; }
-.color5 {color: #F2E9E9; }
- */
+.color5 {color: #F2E9E9; } */
+
 

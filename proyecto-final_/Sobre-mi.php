@@ -23,16 +23,16 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.php">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="Portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="Portfolio.php">Portfolio</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" href="Sobre-mi.html">Sobre mi</a>
+                        <a class="nav-link active" href="Sobre-mi.php">Sobre mi</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="Contacto.html">Contacto</a>
+                        <a class="nav-link" href="Contacto.php">Contacto</a>
                       </li>
                         </ul>
                      </ul>
