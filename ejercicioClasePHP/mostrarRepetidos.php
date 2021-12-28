@@ -43,11 +43,6 @@ function mostrarRepetidos($elementos) {
             $repetidos[$elemento] = 0;
         }
     }
-
-    foreach ($repetidos as $key => $repetidos)
-    if ($repetidos > 0) {
-            echo $key . "<br>";
-    }
 }
 
 mostrarRepetidos($categorias);
