@@ -3,11 +3,11 @@
 $usuariosValidos = [
     [
         'mail' => 'admin@mail.com',
-        'pass' => '123456',
+        'password' => '123456',
     ],
     [
         'mail' => 'user@mail.com',
-        'pass' => '654321',
+        'password' => '654321',
     ]
 ];
 
@@ -15,10 +15,14 @@ $usuariosValidos = [
 // En el if tengo que hacer un echo de "El usuario puede ingresar".
 // En el else tengo que hacer un echo de "El usuario no puede ingresar".
 
-if ($_POST["password"] === $usuariosValidos[0]["pass"] & $_POST["email"] === $usuariosValidos[0]["mail"]) {
-    echo "El usaurio puede ingresar";
-} else {
-    echo "El usuario no puede ingresar";
+foreach ($usuariosValidos as $usuarioValido) {
+    if ($_POST["email"] === $usuarioValido["mail"]) {     
+        if ($_POST["password"] === $usuarioValido["password"]) {
+              echo "El usuario no puede ingresar";
+        } else {
+             echo "El usuario no puede ingresar";
+            }
+    }
 }
 
 // echo '<pre>';
